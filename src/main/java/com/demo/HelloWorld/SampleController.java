@@ -13,8 +13,9 @@ public class SampleController {
 		return "vinay";
 		
 	}
-	
-	@RequestMapping(value="/bhagi",method = RequestMethod.POST)
+
+	//Test
+	@RequestMapping(value="/bhagi",method = RequestMethod.GET)
 	public String test() {
 		return "callled test method";
 	}
